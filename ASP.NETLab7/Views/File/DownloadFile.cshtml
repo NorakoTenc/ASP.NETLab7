@@ -1,0 +1,26 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Завантажити файл</title>
+</head>
+<body>
+    <form method="post" action="/File/DownloadFile">
+        <label>Ім'я:</label>
+        <input type="text" name="firstName" required /><br /><br />
+
+        <label>Прізвище:</label>
+        <input type="text" name="lastName" required /><br /><br />
+
+        <label>Назва файлу:</label>
+        <input type="text" name="fileName" required /><br /><br />
+
+        <input type="submit" value="Продовжити" />
+    </form>
+</body>
+</html>
